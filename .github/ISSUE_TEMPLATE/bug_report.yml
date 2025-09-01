@@ -8,7 +8,7 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report! Before proceeding, please check the [Issues](https://github.com/primary-theme/obsidian/issues) page and check if your bug is already posted to avoid duplication.
   - type: dropdown
-    id: default-theme
+    id: hardware-acceleration
     attributes:
       label: Is Hardware Acceleration turned on?
       description: You can find this in Obsidian's `Settings`. Inside the `Appearance` tab, under `Advanced`, `Hardware Acceleration`. Please ensure that it is turned on. If it is already turned on, turn it off and on again for good measure.
