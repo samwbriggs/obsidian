@@ -6,15 +6,20 @@
   "license": "MIT",
   "dependencies": {
     "dotenv": "^16.4.5",
+    "onchange": "^7.1.0",
     "sass": "^1.74.1"
   },
   "devDependencies": {
-    "grunt": "^1.6.1",
-    "grunt-concat-css": "^0.3.2",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-contrib-cssmin": "^5.0.0",
-    "grunt-contrib-sass": "^2.0.0",
-    "grunt-contrib-watch": "^1.1.0",
-    "grunt-env": "^1.0.1"
+    "concat": "^1.0.3",
+    "copyfiles": "^2.4.1"
+  },
+  "scripts": {
+    "sass-unminified": "sass src/scss/index.scss src/css/main.css --style=expanded",
+    "sass-minified": "sass src/scss/index.scss src/css/main.min.css --style=compressed",
+    "sass": "npm run sass-unminified && npm run sass-minified",
+    "concat": "concat -o theme.css src/css/readme.css src/css/fonts/*.css src/css/main.min.css src/css/style-settings.css",
+    "copy-paste": "copyfiles ./theme.css \"$HOME/Documents/Brain/.obsidian/themes/Primary (Updated)/\"",
+    "publish": "npm run sass && npm run concat && npm run copy-paste",
+    "watch": "onchange \"src/scss/**/*.scss\" -- npm run publish"
   }
 }
