@@ -24,15 +24,6 @@
 
 .nav-file-title {
     transition: padding, transform var(--anim-duration-fast) var(--anim-motion-smooth);
-    
-    &:active {
-        transform: translateY(2px);
-    }
-
-    &.is-active {
-        padding: var(--nav-file-padding-active);
-        box-shadow: var(--nav-file-shadow-active);
-    }
 }
 
 // File Extension Tag
