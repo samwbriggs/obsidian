@@ -467,7 +467,7 @@ body:not(.is-phone) .mod-root .workspace {
                 }
             }
         }
-
+        
         &-new-tab {
             padding-bottom: var(--size-2-2);
         }
@@ -483,16 +483,7 @@ body:not(.is-phone) .mod-root .workspace {
 .workspace .mod-root .workspace-tabs .workspace-tab-header {
     // Note Close Button Shaping
     .workspace-tab-header-inner-close-button {
-        --icon-size: var(--icon-xs);
-        padding: 0;
         border-radius: var(--close-button-radius);
-        margin-bottom: var(--button-axis-offset);
-        cursor: var(--cursor);
-
-        // Mobile
-        .is-mobile & {
-            --icon-size: var(--icon-s);
-        }
     }
     
     // Note Status Icon Shaping
@@ -539,7 +530,6 @@ body:not(.is-phone) .mod-root .workspace {
     &-new-tab {
         .clickable-icon {
             color: var(--icon-color);
-            padding: 0px;
             border-radius: var(--close-button-radius);
 
             &:hover {
