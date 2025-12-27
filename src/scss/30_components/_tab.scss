@@ -28,7 +28,6 @@ body:not(.is-phone) .mod-root .workspace {
     // .mod-root Tabs
     &-tab-header-container {
         padding: var(--tab-header-container-padding);
-        border-bottom: var(--tab-header-container-border-bottom);
         transition: var(--tab-header-container-transition);
 
         &-inner {

@@ -43,7 +43,7 @@ body:not(.is-phone) .workspace {
         margin-left: calc(var(--editor-pane-margin) / 3);
         margin-right: calc(var(--editor-pane-margin) / 3);
     }
-
+    
     &:not(.is-left-sidedock-open.is-right-sidedock-open) {
         .mod-root.workspace-split.mod-vertical {
             margin-left: calc(var(--editor-pane-margin) / 2);
@@ -53,26 +53,14 @@ body:not(.is-phone) .workspace {
     }
 
     &:is(.is-left-sidedock-open.is-right-sidedock-open) {
-        .workspace-split.mod-left-split {
-            margin-right: calc(-1 * (var(--editor-pane-margin) / 3));
-        }
-
         .mod-root.workspace-split.mod-vertical {
             margin-left: 0;
             margin-right: 0;
             padding-bottom: var(--editor-pane-margin);
         }
-
-        .workspace-split.mod-right-split {
-            margin-left: calc(-1 * (var(--editor-pane-margin) / 3));
-        }
     }
 
     &:is(.is-left-sidedock-open):not(.is-right-sidedock-open) {
-        .workspace-split.mod-left-split {
-            margin-right: calc(-1 * (var(--editor-pane-margin) / 3));
-        }
-
         .mod-root.workspace-split.mod-vertical {
             margin-left: 0;
             margin-right: calc(var(--editor-pane-margin) / 2);
@@ -85,10 +73,6 @@ body:not(.is-phone) .workspace {
             margin-left: calc(var(--editor-pane-margin) / 2);
             margin-right: 0;
             padding-bottom: var(--editor-pane-margin);
-        }
-
-        .workspace-split.mod-right-split {
-            margin-left: calc(-1 * (var(--editor-pane-margin) / 3));
         }
     }
 }
