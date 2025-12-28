@@ -482,6 +482,7 @@ body:not(.is-phone) .mod-root .workspace {
 .workspace .mod-root .workspace-tabs .workspace-tab-header {
     // Note Close Button Shaping
     .workspace-tab-header-inner-close-button {
+        padding: 0px;
         border-radius: var(--close-button-radius);
     }
     

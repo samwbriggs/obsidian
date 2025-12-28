@@ -164,21 +164,6 @@ body {
     --bold-modifier: 200;
     --bold-italic-weight: var(--font-bold);
 
-    /* Icon */
-    --icon-xs: 13px;
-    --icon-s: 15px;
-    --icon-m: 16px;
-    --icon-l: 18px;
-    --icon-xl: 24px;
-    --icon-container-radius: 0px;
-    --clickable-icon-radius: calc(var(--radius-s) + 1px);
-
-    --ribbon-icon: var(--icon-s);
-    --sidebar-tab-icon: var(--icon-s);
-    --sidebar-nav-icon: var(--icon-s);
-    --editor-tab-icon: var(--icon-s);
-    --editor-header-icon: var(--icon-s);
-
     /* Radius */
     --radius-xs: 2px;
 
