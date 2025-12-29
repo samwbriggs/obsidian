@@ -6,10 +6,6 @@ body:not(.is-phone, .is-mobile) {
     .clickable-icon {
         --icon-size: var(--icon-s);
     }
-
-    .clickable-icon.side-dock-ribbon-action .svg-icon {
-        --icon-size: var(--ribbon-icon);
-    }
 } 
 
 // Mobile
