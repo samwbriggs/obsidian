@@ -164,21 +164,6 @@ body {
     --bold-modifier: 200;
     --bold-italic-weight: var(--font-bold);
 
-    /* Icon */
-    --icon-xs: 13px;
-    --icon-s: 15px;
-    --icon-m: 16px;
-    --icon-l: 18px;
-    --icon-xl: 24px;
-    --icon-container-radius: 0px;
-    --clickable-icon-radius: calc(var(--radius-s) + 1px);
-
-    --ribbon-icon: var(--icon-s);
-    --sidebar-tab-icon: var(--icon-s);
-    --sidebar-nav-icon: var(--icon-s);
-    --editor-tab-icon: var(--icon-s);
-    --editor-header-icon: var(--icon-s);
-
     /* Radius */
     --radius-xs: 2px;
 
@@ -271,7 +256,6 @@ body {
 
     /* Modal */
     --modal-radius: var(--radius-xl);
-    --modal-close-button-size: 20px;
     --settings-nav-item-padding:    calc(var(--size-2-3) + 1px)
                                     var(--size-4-3)
                                     calc(var(--size-2-3) + 1px)
@@ -945,9 +929,7 @@ body {
     --nav-heading-color-collapsed: var(--color-l-gray-100);
     --nav-heading-color-collapsed-hover: var(--color-l-gray-100);
     --nav-item-shadow-active:   inset 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
-    --nav-file-shadow-active:   inset 0px 0px 0px 1px rgba(0, 0, 0, 0.09),
-                                inset 0px calc(-1 * var(--button-axis-offset)) 0px var(--button-axis-offset) rgba(0, 0, 0, 0.07),
-                                0px 2px 3px 0px rgba(0, 0, 0, 0.05);
+    --nav-file-shadow-active:   inset 0px 0px 0px 1px rgba(0, 0, 0, 0.06);
     --nav-file-tag-color: var(--color-l-gray-90);
     --nav-file-tag-bg: transparent;
 
@@ -2072,10 +2054,8 @@ body {
     --nav-heading-color-hover: var(--color-d-gray-50);
     --nav-heading-color-collapsed: var(--color-d-gray-50);
     --nav-heading-color-collapsed-hover: var(--color-d-gray-50);
-    --nav-item-shadow-active:   inset 0px 0px 0px 1px rgba(0, 0, 0, 0.23);
-    --nav-file-shadow-active:   inset 0px 0px 0px 1px rgba(0, 0, 0, 0.27),
-                                inset 0px calc(-1 * var(--button-axis-offset)) 0px var(--button-axis-offset) rgba(0, 0, 0, 0.24),
-                                0px 2px 3px 0px rgba(0, 0, 0, 0.22);
+    --nav-item-shadow-active: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.23);
+    --nav-file-shadow-active: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.23);
     --nav-file-tag-color: var(--color-d-gray-60);
     --nav-file-tag-bg: transparent;
 
