@@ -39,11 +39,6 @@
 // Note Panes Margin
 body:not(.is-phone) .workspace {
     // Tabs including Stacked Tabs except Sidedock Tabs
-    .workspace-tabs .workspace-tab-container:not(.mod-left-split .workspace-tab-container, .mod-right-split .workspace-tab-container) {
-        margin-left: calc(var(--editor-pane-margin) / 3);
-        margin-right: calc(var(--editor-pane-margin) / 3);
-    }
-    
     &:not(.is-left-sidedock-open.is-right-sidedock-open) {
         .mod-root.workspace-split.mod-vertical {
             margin-left: calc(var(--editor-pane-margin) / 2);
