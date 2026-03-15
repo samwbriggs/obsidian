@@ -18,7 +18,7 @@
     "sass-minified": "sass src/scss/index.scss src/css/main.min.css --style=compressed",
     "sass": "npm run sass-unminified && npm run sass-minified",
     "concat": "concat -o theme.css src/css/readme.css src/css/fonts/*.css src/css/main.min.css src/css/style-settings.css",
-    "copy-paste": "copyfiles ./theme.css \"$HOME/Documents/Brain/.obsidian/themes/Primary (Updated)/\"",
+    "copy-paste": "copyfiles ./theme.css \"$HOME/Documents/Brain/.obsidian/themes/Primary/\"",
     "publish": "npm run sass && npm run concat && npm run copy-paste",
     "watch": "onchange \"src/scss/**/*.scss\" -- npm run publish"
   }
