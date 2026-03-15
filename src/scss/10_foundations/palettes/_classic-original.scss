@@ -460,23 +460,14 @@ body {
     --list-bullet-indent-reading: -1em;
     --indentation-guide-reading-indent: -1em;
 
-    /* Properties | Metadata */
-    --metadata-border-width: 1px;
-    --metadata-divider-width: 0px;
-    --metadata-border-radius: var(--radius-m);
-    --metadata-property-radius: calc(var(--radius-m) - 1px);
-    --metadata-container-padding: var(--size-4-3) var(--size-4-3);
-
     /* Tag */
     --tag-padding-x: 0.6em;
     --tag-padding-y: 0.15em;
     --tag-radius: 1em;
 
     /*────────── Mobile ──────────*/
-
+    
     &.is-mobile {
-        --metadata-container-padding: var(--size-4-2) var(--size-4-2);
-        --clickable-icon-radius: var(--radius-m);
         --button-radius: calc(var(--radius-l) - 2px);
         --input-font-weight: var(--font-normal);
         --mobile-folder-icon-size: 16px;
@@ -1423,27 +1414,6 @@ body {
     --link-external-color-hover: var(--color-l-green-20);
     --link-external-decoration-color-hover: color-mix(in srgb, var(--link-external-color-hover) var(--link-decoration-opacity), transparent);
 
-    /* Properties | Metadata */
-    --metadata-background: color-mix(in srgb, var(--editor-bg-color) 50%, var(--background-primary-alt));
-    --metadata-tab-background: var(--background-secondary);
-    --metadata-properties-title-color-collapsed: var(--color-l-gray-70);
-    --metadata-properties-title-color-hover: var(--color-l-gray-80);
-    --metadata-properties-title-color: var(--color-l-gray-70);
-    --metadata-input-text-color: var(--color-l-gray-120);
-    --metadata-input-background: transparent;
-    --metadata-input-background-hover: transparent;
-    --metadata-input-background-active: rgba(255, 255, 255, 0.45);
-    --metadata-label-background-active: var(--metadata-input-background-active);
-    --metadata-input-shadow-hover: none;
-    --metadata-input-shadow-active: inset 0px 0px 0px 1px var(--background-modifier-border),
-                                    0px 0px 0px 1px var(--background-modifier-border);
-    --metadata-key-input-color: var(--color-l-gray-100);
-    --metadata-key-input-color-active: var(--color-l-gray-120);
-
-    --metadata-divider-color: var(--background-modifier-border);
-    --metadata-divider-color-hover: transparent;
-    --metadata-divider-color-focus: transparent;
-
     --yaml-base-color: var(--color-l-red-10);
     --yaml-def-meta-color: var(--color-l-gray-70);
     --yaml-atom-color: var(--color-l-blue-10);
@@ -1500,6 +1470,8 @@ body {
                                     0px 2px 9px -2.1px rgba(0, 0, 0, 0.38),
                                     0px 3px 17px -4.3px rgba(0, 0, 0, 0.12),
                                     0px 7px 30px -5.5px rgba(0, 0, 0, 0.09);
+
+        --file-header-border: none;
     }
     
     /*────────── Core Plugins ──────────*/
@@ -2550,27 +2522,6 @@ body {
     --link-external-color-hover: var(--color-d-green-10);
     --link-external-decoration-color-hover: color-mix(in srgb, var(--link-external-color-hover) var(--link-decoration-opacity), transparent);
 
-    /* Properties | Metadata */
-    --metadata-background: color-mix(in srgb, var(--editor-bg-color) 50%, var(--background-primary-alt));
-    --metadata-tab-background: var(--background-secondary);
-    --metadata-properties-title-color-collapsed: var(--color-d-gray-60);
-    --metadata-properties-title-color-hover: var(--color-d-gray-50);
-    --metadata-properties-title-color: var(--color-d-gray-60);
-    --metadata-input-text-color: var(--color-d-gray-40);
-    --metadata-input-background: transparent;
-    --metadata-input-background-hover: transparent;
-    --metadata-input-background-active: rgba(0, 0, 0, 0.2);
-    --metadata-label-background-active: var(--metadata-input-background-active);
-    --metadata-input-shadow-hover: none;
-    --metadata-input-shadow-active: inset 0px 0px 0px 1px var(--background-modifier-border),
-                                    0px 0px 0px 1px var(--background-modifier-border);
-    --metadata-key-input-color: var(--color-d-gray-50);
-    --metadata-key-input-color-active: var(--color-d-gray-30);
-
-    --metadata-divider-color: var(--background-modifier-border);
-    --metadata-divider-color-hover: transparent;
-    --metadata-divider-color-focus: transparent;
-
     --pill-tag-color-1: var(--color-d-yellow-20);
     --pill-tag-bg-1: var(--color-d-alpha-yellow);
     --pill-tag-color-2: var(--color-d-red-20);
@@ -2638,6 +2589,8 @@ body {
                                     0px 2px 9px -2.1px rgba(0, 0, 0, 0.4),
                                     0px 3px 17px -4.3px rgba(0, 0, 0, 0.3),
                                     0px 7px 30px -5.5px rgba(0, 0, 0, 0.2);
+
+        --file-header-border: none;
     }
 
     &.is-tablet {
