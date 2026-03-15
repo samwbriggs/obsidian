@@ -1500,6 +1500,8 @@ body {
                                     0px 2px 9px -2.1px rgba(0, 0, 0, 0.38),
                                     0px 3px 17px -4.3px rgba(0, 0, 0, 0.12),
                                     0px 7px 30px -5.5px rgba(0, 0, 0, 0.09);
+
+        --file-header-border: none;
     }
     
     /*────────── Core Plugins ──────────*/
@@ -2638,6 +2640,8 @@ body {
                                     0px 2px 9px -2.1px rgba(0, 0, 0, 0.4),
                                     0px 3px 17px -4.3px rgba(0, 0, 0, 0.3),
                                     0px 7px 30px -5.5px rgba(0, 0, 0, 0.2);
+
+        --file-header-border: none;
     }
 
     &.is-tablet {
