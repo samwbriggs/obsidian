@@ -119,6 +119,11 @@ button[disabled="true"] {
     &:active {
         opacity: var(--button-opacity-active);
     }
+
+    .is-mobile &.clickable-icon {
+        color: var(--icon-color);
+        border-radius: var(--clickable-icon-radius);
+    }
 }
 
 .document-search-close-button {
