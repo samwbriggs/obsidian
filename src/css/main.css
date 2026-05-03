@@ -661,8 +661,6 @@ body.is-mobile {
   --background-modifier-border-focus: color-mix(in hsl, var(--color-l-gray-70) 60%, var(--color-l-gray-60));
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.1);
   --background-modifier-cover: rgba(220, 220, 220, 0.4);
-  --background-modifier-warning: var(--color-l-orange-30);
-  --background-modifier-warning-hover: var(--color-l-orange-20);
   --background-modifier-error-rgb: var(--color-red-rgb);
   --background-modifier-error: var(--color-l-red-30);
   --background-modifier-error-hover: var(--color-l-red-20);
@@ -1565,8 +1563,6 @@ body.is-mobile {
   --background-modifier-border-focus: color-mix(in srgb, var(--color-d-gray-70) 40%, var(--color-d-gray-80));
   --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
   --background-modifier-cover: rgba(10, 10, 10, 0.4);
-  --background-modifier-warning: var(--color-d-orange-40);
-  --background-modifier-warning-hover: var(--color-d-orange-30);
   --background-modifier-error-rgb: var(--color-red-rgb);
   --background-modifier-error: var(--color-d-red-40);
   --background-modifier-error-hover: var(--color-d-red-30);
@@ -2489,10 +2485,7 @@ body.ribbon-slideout:not(.is-mobile):not(.is-hidden-frameless.is-frameless) .sid
 
 .nav-buttons-container {
   gap: var(--size-4-1);
-  justify-content: left;
   padding-left: var(--size-2-3);
-  margin-top: var(--size-4-1);
-  margin-bottom: var(--size-4-1);
 }
 
 .nav-action-button {
@@ -2780,22 +2773,6 @@ button:not(button.clickable-icon).mod-warning:active {
 button:not(button.clickable-icon).mod-warning:focus-visible {
   background: var(--background-modifier-error-hover);
   box-shadow: var(--button-accent-shadow-focus);
-}
-.is-mobile button:not(button.clickable-icon).mod-destructive,
-button:not(button.clickable-icon).mod-destructive {
-  color: var(--text-on-accent);
-  background: var(--background-modifier-warning);
-  box-shadow: var(--button-accent-shadow);
-}
-.is-mobile button:not(button.clickable-icon).mod-destructive:hover,
-button:not(button.clickable-icon).mod-destructive:hover {
-  background: var(--background-modifier-warning-hover);
-  box-shadow: var(--button-accent-shadow-hover);
-}
-.is-mobile button:not(button.clickable-icon).mod-destructive:active,
-button:not(button.clickable-icon).mod-destructive:active {
-  background: var(--background-modifier-warning);
-  box-shadow: var(--button-accent-shadow-active);
 }
 .is-mobile button:not(button.clickable-icon).mod-loading,
 button:not(button.clickable-icon).mod-loading {
