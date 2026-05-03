@@ -1,7 +1,7 @@
 name: Enhancement Suggestion
 description: I want to suggest improvements to Primary
-labels: ["🧞‍♂️ enhancement"]
-projects: ["primary-theme/1"]
+labels: ["🚀 Improvement"]
+projects: ["samwbriggs/1"]
 body:
   - type: markdown
     attributes:
@@ -20,8 +20,6 @@ body:
     attributes:
       label: Debug Info
       description: Please paste the debug info below. To get the Debug Info, open up the Command Palette using `Cmd/Ctrl + P` and typing in `Show debug info`. A popup will open. Press `Copy to clipboard` and paste below.
-    validations:
-      required: true
   - type: textarea
     id: enhancement-suggestion
     attributes:
