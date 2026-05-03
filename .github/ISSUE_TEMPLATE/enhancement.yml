@@ -1,12 +1,12 @@
 name: Enhancement Suggestion
-description: I want to suggest improvements to Primary
+description: I want to suggest improvements.
 labels: ["🚀 Improvement"]
 projects: ["samwbriggs/1"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to suggest improvements to Primary! Before proceeding, please check the [Issues](https://github.com/primary-theme/obsidian/issues) page and check if your suggestion is already posted to avoid duplication.
+        Thanks for taking the time to suggest improvements! Before proceeding, please check the [Issues](https://github.com/primary-theme/obsidian/issues) page and check if your suggestion is already posted to avoid duplication.
   - type: input
     id: primary-version
     attributes:
@@ -18,7 +18,7 @@ body:
   - type: textarea
     id: enhancement-suggestion
     attributes:
-      label: Describe the enhancement
+      label: Describe the Enhancement
       description: Feel free to post in screenshots, links, etc. If it exists in other themes or apps, please provide links to those!
     validations:
       required: true

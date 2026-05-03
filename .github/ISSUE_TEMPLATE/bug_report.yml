@@ -1,5 +1,5 @@
 name: Bug Report
-description: I want to report something that isn't working properly in Primary
+description: I want to report something that isn't working properly.
 labels: ["🐛 Bug"]
 projects: ["samwbriggs/1"]
 body:
@@ -10,7 +10,7 @@ body:
   - type: dropdown
     id: hardware-acceleration
     attributes:
-      label: Is Hardware Acceleration turned on?
+      label: Is hardware acceleration turned on?
       description: You can find this in Obsidian's `Settings`. Inside the `Appearance` tab, under `Advanced`, `Hardware Acceleration`. Please ensure that it is turned on. If it is already turned on, turn it off and on again for good measure.
       options:
         - "Yes"
@@ -20,7 +20,7 @@ body:
   - type: dropdown
     id: default-theme
     attributes:
-      label: Is the bug present in the Default Theme?
+      label: Is the bug present in the default theme?
       description: Try using the default theme to see if the bug is still present.
       options:
         - "Yes"
@@ -30,7 +30,7 @@ body:
   - type: dropdown
     id: snippets-plugin-off
     attributes:
-      label: Is the bug present in when all Snippets and Community Plugins are turned off?
+      label: Is the bug present when all snippets and community plugins are turned off?
       description: Try turning off all snippets and community plugins to check if the bug still persists in the theme.
       options:
         - "Yes"
