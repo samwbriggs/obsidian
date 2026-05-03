@@ -16,14 +16,14 @@ body:
     validations:
       required: true
   - type: textarea
-    id: debug-info
-    attributes:
-      label: Debug Info
-      description: Please paste the debug info below. To get the Debug Info, open up the Command Palette using `Cmd/Ctrl + P` and typing in `Show debug info`. A popup will open. Press `Copy to clipboard` and paste below.
-  - type: textarea
     id: enhancement-suggestion
     attributes:
       label: Describe the enhancement
       description: Feel free to post in screenshots, links, etc. If it exists in other themes or apps, please provide links to those!
     validations:
       required: true
+  - type: textarea
+    id: debug-info
+    attributes:
+      label: Debug Info
+      description: Please paste the debug info below. To get the Debug Info, open up the Command Palette using `Cmd/Ctrl + P` and typing in `Show debug info`. A popup will open. Press `Copy to clipboard` and paste below.
