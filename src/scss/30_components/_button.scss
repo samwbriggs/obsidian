@@ -59,22 +59,6 @@ button:not(button.clickable-icon) {
         }
     }
 
-    &.mod-destructive {
-        color: var(--text-on-accent);
-        background: var(--background-modifier-warning);
-        box-shadow: var(--button-accent-shadow);
-
-        &:hover {
-            background: var(--background-modifier-warning-hover);
-            box-shadow: var(--button-accent-shadow-hover);
-        }
-
-        &:active {
-            background: var(--background-modifier-warning);
-            box-shadow: var(--button-accent-shadow-active);
-        }
-    }
-
     &.mod-loading {
         opacity: var(--disabled-component-opacity);
         cursor: wait;
