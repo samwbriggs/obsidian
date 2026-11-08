@@ -107,9 +107,6 @@ body {
     --anim-popdown: 0.4s slideDown forwards;
     --background-anim: background var(--anim-duration-fast) var(--anim-motion-smooth);
 
-    /* Cursor */
-    --cursor: pointer;
-
     /* Font */
     --font-interface-theme: 'Inter';
     --font-text-theme: 'Inter';
@@ -286,15 +283,6 @@ body {
     /* Slider */
     --slider-track-height: 5px;
 
-    /* Tab */
-    --tab-font-size: var(--font-ui-small);
-    --tab-outline-width: 1px;
-    --tab-curve: 6px;
-    --tab-radius: var(--radius-s);
-    --tab-radius-active: 6px 6px 0 0;
-    --tab-width: 200px;
-    --tab-max-width: 320px;
-
     // Stacked Tabs
     --tab-stacked-pane-width: 700px;
     --tab-stacked-header-width: var(--header-height);
@@ -381,20 +369,6 @@ body {
 
     /* Emphasis */
     --underline-decoration-opacity: 22%;
-
-    /* File */
-    --editor-border-width: 1px;
-    --file-header-border-width: 1px;
-
-    --file-line-width: 40rem;
-    --file-max-line-width: 88%;
-
-    --header-height: 46px;
-    --file-tab-gap: 0px;
-    --tab-status-radius: var(--radius-s);
-    --new-tab-btn-radius: 2em;
-    --editor-pane-margin: 10px;
-    --editor-border-radius: var(--radius-l);
 
     /* Headings */
     --h1-weight: var(--font-semibold);
@@ -1015,15 +989,14 @@ body {
 
     --tab-container-background: var(--background-secondary);
     --tab-divider-color: var(--background-modifier-border-hover);
-    --tab-outline-color: var(--color-l-gray-70);
+
 
     --tab-bg: transparent;
     --tab-active-bg: var(--background-primary);
     --tab-active-shadow:inset 0px 1px 0px 0px rgba(255, 255, 255, 1),
                         inset 0px calc(-1 * var(--button-inset-shadow-size)) 0px 1px rgba(0, 0, 0, 0.09),
                         0px 1px 2px -0.1px rgba(0, 0, 0, 0.15);
-    // Stacked Tab
-    --tab-outline-color: transparent;
+    
     --tab-stacked-shadow:   -2.9px 0 10.5px -6.2px rgba(0, 0, 0, 0.08),
                             -6.2px 0 3.6px -5.2px rgba(0, 0, 0, 0.04),
                             -9.4px 0 8.4px -4.1px rgba(0, 0, 0, 0.06);
@@ -2119,7 +2092,6 @@ body {
 
     --tab-container-background: var(--background-secondary);
     --tab-divider-color: var(--background-modifier-border-hover);
-    --tab-outline-color: var(--color-d-gray-70);
 
     --tab-bg: transparent;
     --tab-active-bg: var(--background-primary);
@@ -2127,8 +2099,6 @@ body {
                             inset 0px calc(-1 * var(--button-inset-shadow-size)) 0px 1px rgba(0, 0, 0, 0.25),
                             0px 1px 2px -0.1px rgba(0, 0, 0, 0.47);
 
-    // Stacked Tab
-    --tab-outline-color: transparent;
     --tab-stacked-shadow:   -2.9px 0 10.5px -6.2px rgba(0, 0, 0, 0.31),
                             -6.2px 0 3.6px -5.2px rgba(0, 0, 0, 0.27),
                             -9.4px 0 8.4px -4.1px rgba(0, 0, 0, 0.2);
